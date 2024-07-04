@@ -1,5 +1,4 @@
 const express = require("express");
-const { default: mongoose } = require("mongoose");
 const User = require("./models/User");
 const router = express.Router();
 const bcrypt = require("bcrypt");
