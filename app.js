@@ -7,10 +7,6 @@ const { loginRoute } = require("./loginRoute.js");
 
 app.use(express.json());
 
-// app.get("/", (req, res) => {
-//   res.json({ name: "Spencver" });
-// });
-
 app.use("/api", loginRoute);
 
 app.listen(process.env.PORT, () => {
